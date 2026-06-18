@@ -7,18 +7,23 @@ Que vous soyez en Portage Salarial ou Salarié classique (CDI/CDD), la plupart d
 
 Un outil simple, léger, et 100 % privé pour reprendre le contrôle de votre capacité d'investissement.
 
+
 ✨ Fonctionnalités Principales
+
+
 🎛️ Simulateur Double Profil :
 
 Portage Salarial : Optimisation poussée (Frais fixes vs %, PEE 300%, Chèques Culture, IK).
 
 Salarié Classique : Base de calcul sur le salaire brut avec maintien des avantages du CE (TR, Culture).
 
+
 💾 Figeage et Budget Mensuel :
 
 Sauvegardez l'état exact de vos finances d'un mois précis.
 
 Saisissez vos dépenses incompressibles (Loyer, Factures) et vos investissements (PEA).
+
 
 📈 Tableau de Bord & Historique :
 
@@ -27,6 +32,7 @@ Suivez vos KPIs (Revenus générés, Pouvoir d'achat restant, Total investi).
 Filtrez vos résultats (mois, année, global).
 
 Exportez toute votre base de données locale en un clic au format CSV/Excel.
+
 
 🛠️ Stack Technique
 Pensée pour la légèreté et l'auto-hébergement (consomme quelques Mo de RAM) :
@@ -38,6 +44,9 @@ Base de données : SQLite (Un seul fichier .db, aucun serveur lourd à maintenir
 Frontend : HTML5, CSS3, Vanilla JS (Zéro framework usine à gaz)
 
 Déploiement : Script Bash avec création automatique d'un daemon systemd.
+
+
+
 
 🚀 Installation Express (Linux / Debian / Ubuntu / LXC Proxmox)
 Le projet s'installe tout seul et tourne en arrière-plan en moins de 2 minutes.
@@ -59,6 +68,8 @@ Ouvrez un navigateur web sur n'importe quel appareil de votre réseau local :
 
 Plaintext
 http://VOTRE_IP_LOCALE:5000
+
+
 
 
 🗺️ Roadmap (À venir dans la V1.X)
